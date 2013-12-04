@@ -1,4 +1,0 @@
-Enter username: Traceback (most recent call last):
-  File "daemon.py", line 12, in <module>
-    username = raw_input('Enter username: ')
-IOError: [Errno 9] Bad file descriptor
