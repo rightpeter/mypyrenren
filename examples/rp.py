@@ -17,8 +17,8 @@ def SignalHandler(sig, id):
 
 signal.signal(signal.SIGHUP, SignalHandler)
 
-username = raw_input('Enter username: ') 
-passwd =  getpass.getpass('Enter passwd: ')
+username = sys.argv[1]
+passwd = sys.argv[2]
 
 print(username)
 print(passwd)
