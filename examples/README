@@ -1,0 +1,8 @@
+Usage:
+    $: python rp.py
+    根据提示输入账号密码
+
+PS:
+    重写SIGHUP处理函数，收到SIGHUP信号后不退出
+    主程序fork()转为守护进程
+    
